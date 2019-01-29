@@ -6,7 +6,7 @@ const app			= express();
 const mongoose		= require('mongoose');
 
 let port = 1234;
-let dev_db_url = 'mongodb://bruh42:Carpediem01@ds111765.mlab.com:11765/weedapp';
+let dev_db_url = ;
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 app.use('/weeds', weed);
